@@ -1,0 +1,26 @@
+.contador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.increase {
+  border-radius: 25px;
+  background-color: rgb(31, 204, 31);
+  border: 1px solid green;
+  color: white;
+}
+
+.decrease {
+  border-radius: 25px;
+  background-color: darkorange;
+  border: 1px solid rgb(220, 97, 97);
+  color: white;
+}
+
+input {
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
